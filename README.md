@@ -13,7 +13,7 @@ Este proyecto implementa un sistema de alarma de proximidad diseñado para mejor
 - ✅ Notificaciones instantáneas por Telegram
 - ✅ Control remoto mediante comandos `/encender` y `/apagar`
 - ✅ Interfaz desarrollada en Arduino IDE
-- ✅ Manual de usuario accesible vía código QR
+- ✅ Manual de usuario accesible
 
 ---
 
@@ -26,30 +26,6 @@ Este proyecto implementa un sistema de alarma de proximidad diseñado para mejor
 | Buzzer         | Emite alerta sonora en caso de intrusión                       |
 | LED (opcional) | Indica visualmente el estado del sistema                       |
 | Telegram API   | Envío de alertas y recepción de comandos remotos desde el chat |
-
----
-
-## 📐 Diagrama de Conexión
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/yourdiagram.png" alt="Diagrama de bloques" width="600"/>
-</p>
-
-- **HC-SR04**:
-
-  - VCC → 5V ESP32
-  - GND → GND ESP32
-  - TRIG → GPIO D2
-  - ECHO → GPIO D4
-
-- **Buzzer**:
-
-  - Positivo → GPIO D16
-  - Negativo → GND
-
-- **LED (opcional)**:
-  - Ánodo → GPIO D5
-  - Cátodo → GND
 
 ---
 
@@ -81,7 +57,6 @@ Este proyecto implementa un sistema de alarma de proximidad diseñado para mejor
 - 🕵️ Precisión: ±3 mm en detección
 - 📲 Tiempo de alerta: < 1 segundo
 - 🔋 Bajo consumo energético
-- ✅ Funcionamiento validado en maqueta de vivienda rural
 
 ---
 
@@ -89,19 +64,6 @@ Este proyecto implementa un sistema de alarma de proximidad diseñado para mejor
 
 - 📘 [Manual de Usuario (PDF)](https://drive.google.com/drive/folders/1rFSyHGObPx82W6xENoh6TlvTBymRzTTH?usp=sharing)
 - 💾 Código fuente y guía de instalación del entorno Arduino IDE
-- 📦 Archivos STL y planos de maqueta (opcional)
-
----
-
-## 🏁 Contribuyentes
-
-- A. Díaz
-- S. Gerónimo
-- J. Larrota
-- J. Rentería
-
-Facultad de Ingeniería – Universidad Católica de Pereira  
-Programa de Ingeniería de Sistemas y Telecomunicaciones
 
 ---
 
